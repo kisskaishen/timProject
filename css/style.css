@@ -399,7 +399,7 @@ background-size:cover;
 -o-background-size: cover;
 -ms-background-size: cover;
 -moz-background-size: cover;
-min-height: 750px;
+min-height: 500px;
 }
 .navbar {
   border-radius: 0px;
@@ -612,6 +612,7 @@ a.hvr-rectangle-out:hover:before,a.hvr-rectangle-out:focus:before,a.hvr-rectangl
 padding:90px 0;
 }
 h3.tittle{
+  position: relative;
 margin-bottom:50px;
 color:#7d37ce;
 font-size:36px;
@@ -620,6 +621,12 @@ text-align:center;
 }
 .banner-bottom h3{
 margin-bottom:65px;
+}
+.banner-bottom .more {
+  position:absolute;
+  right: 0;
+  bottom:0;
+  font-size:16px;
 }
 .info h4 {
   color: #fff;
@@ -1896,3 +1903,7 @@ h3.tittle.t-three {
   }
 }
 /*-- //responsive media queries --*/
+
+.banner-bottom .container {
+  margin-bottom:80px;
+}
